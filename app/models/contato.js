@@ -1,0 +1,1 @@
+var model = require('../controllers/contato');

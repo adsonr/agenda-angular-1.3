@@ -1,0 +1,24 @@
+{
+  "name": "contatooh",
+  "version": "1.0.0",
+  "description": "Mean Full Stack JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adsonr/contatooh.git"
+  },
+  "author": "Adson Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adsonr/contatooh/issues"
+  },
+  "homepage": "https://github.com/adsonr/contatooh#readme",
+  "dependencies": {
+    "ejs": "^0.8.8",
+    "express": "^4.8.8",
+    "express-load": "^1.1.16"
+  }
+}
