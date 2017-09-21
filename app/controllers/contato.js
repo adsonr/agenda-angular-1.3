@@ -24,3 +24,11 @@ module.exports.obtemContatos = function(req, res) {
     res.json(contato) :
     res.status(404).send('Contato não encontrado');
 }
+
+module.exports.removeContato = function(req, res) {
+    var idContato = req.params.id
+    contatos = contatos.filter(function(contato){
+        return contato._id != idContato;
+    });
+    res.send(204).end();
+}
