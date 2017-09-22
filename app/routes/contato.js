@@ -3,7 +3,7 @@ module.exports = function(app) {
     app.get('/contatos', controller.contatos);
     app.get('/contatos/:id', controller.obtemContatos);
     app.delete('/contatos/:id', controller.removeContato);
-
+    
     // app.get('/contatos', controller.listaTodos);
     // app.post('/contatos', controller.salvaContato);
     // app.get('/contatos/:id', controller.obtemContato);
