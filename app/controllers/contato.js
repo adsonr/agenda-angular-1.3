@@ -26,7 +26,6 @@ module.exports.obtemContatos = function(req, res) {
 }
 
 module.exports.removeContato = function(req, res) {
-    console.log('aewa');
     var idContato = req.params.id
     contatos = contatos.filter(function(contato){
         return contato._id != idContato;
